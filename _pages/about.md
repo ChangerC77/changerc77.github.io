@@ -34,6 +34,7 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
 
 # <i class="fas fa-fire"></i> News
 <ul class="about-section-list">
+<li><em>2026.06</em>: My team won the <span class="accent-text">First Place</span> 🏆 in the <a href="https://wbcdcompetition.github.io/" class="accent-text accent-text-link">ICRA 2026 What Bimanuals Can Do (WBCD) Challenge (Vienna)</a>.</li>
  <li><em>2025.11</em>: I am honored to be a <span class="accent-text">co-organizer</span> for <a href="https://wbcdcompetition.github.io/" class="accent-text accent-text-link">ICRA 2026 What Bimanuals Can Do (WBCD) Challenge</a>.</li>
   <li><em>2025.09</em>: My team won the <span class="accent-text">First Place</span> 🏆 in the <span class="accent-text">CVPR 2025 Embodied AI Workshop</span>.</li>
   <li><em>2025.05</em>: My team won the <span class="accent-text">First Place</span> 🏆 in the <span class="accent-text">ICRA 2025 What Bimanuals Can Do (WBCD) Challenge</span>.</li>
@@ -244,6 +245,53 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
   </div>
 </div>
 
+<span class='anchor' id='competitions'></span>
+
+# <i class="fas fa-trophy"></i> Competitions
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge">ICRA 2026</div>
+    <img src='images/2026_WBCD_Vienna.gif' alt="WBCD challenge demo" style="width: 50%; max-width: 200px; margin: 0 auto;">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="https://wbcdcompetition.github.io/">ICRA 2025 What Bimanuals Can Do (WBCD) Challenge (Vienna)</a></h3>
+    <p><strong>Track 4 Deformable Manipulation</strong></p>
+    <div class="authors"><a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a>, Boyang Cai, Jinru Song, Xuanyu Lai, Xiangzheng Wang, <a href="https://harroldx.github.io/">Jiawei Xia</a>, <a href='https://songwxuan.github.io/'>Wenxuan Song</a></div>
+    <div class="venue"><em>ICRA 2026</em> 🏆 <span class="accent-text">The First Place</span> <a href="certificate/ICRA_2026_WBCD_certificate.pdf"><b>(Certificate)</b></a></div>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge">ICRA 2025</div>
+    <img src='images/2025_WBCD.gif' alt="WBCD challenge demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="https://wbcdcompetition.github.io/">ICRA 2025 What Bimanuals Can Do (WBCD) Challenge</a></h3>
+    <p><strong>Hierarchical Bimanual Manipulation Policy for Dining Room Service</strong></p>
+    <div class="authors"><a href="https://ericlee0224.github.io/">Weize Li</a>, Zhengxiao Han, <a href="https://davidlxu.github.io/">Lixin Xu</a>, <a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a>, <a href="https://harrisonbounds.github.io/">Harrison Bounds</a>, Chenrui Zhang, <a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&hl=en">Yifan Xu</a></div>
+    <div class="venue"><em>ICRA 2025</em> 🏆 <span class="accent-text">The First Place</span> <a href="certificate/ICRA_2025_WBCD_certificate.pdf"><b>(Certificate)</b></a></div>
+    <p><strong>Media: <a href="https://mp.weixin.qq.com/s/SqlE_TpMyzCj3Us1R3L4NA">甲子光年</a> | <a href="https://mp.weixin.qq.com/s/GwJiwAKvZb0K-uHy2_rzBQ">36氪</a> | <a href="https://mp.weixin.qq.com/s/H26K-brCRXqNVZ-BScoC-g">机器之心</a> | <a href="https://mp.weixin.qq.com/s/Y-9wZm2Rwr_gLEelUgV39A">量子位</a> | <a href="https://mp.weixin.qq.com/s/hXL6lI4Mh4bpAi9OrABtEA">ARX方舟无限</a></strong></p>
+  </div>
+</div>
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge">CVPR 2025</div>
+    <img src='images/peg-insertion-sim2real.gif' alt="ManiSkill-ViTac demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="https://ai-workshops.github.io/maniskill-vitac-challenge-2025/">ManiSkill-ViTac 2025: Challenge on Manipulation Skill Learning With Vision and Tactile Sensing</a></h3>
+    <p><span class="accent-text"><strong>Champion</strong></span> 🏆 in Track 2: Tactile-Vision-Fusion Manipulation <a href="certificate/Track2_1_ TARS-STEIIA_certificate.pdf"><b>(Certificate)</b></a></p>
+    <p><span class="accent-text"><strong>The First Place</strong></span> 🏆 in CVPR 2025 Embodied AI Workshop <a href="certificate/2025 Award - ManiSkill-ViTac Track 2 First v1.pdf"><b>(Certificate)</b></a></p>
+    <p><strong>TARS-STEIIA Team</strong></p>
+    <p>Team Leader: <a href="https://warshallrho.github.io/">Ruihai Wu</a></p>
+    <p>Instructor: <a href="https://www.xxlong.site/">Xiaoxiao Long</a></p>
+    <p>Members</p>
+    <p>Xiang Xiao<sup>*</sup>, Yuxing Qin<sup>*</sup>, <a href="https://mrsecant.github.io/">Yuhang Zheng<sup>*</sup></a>, <strong>Xiangyu Chen</strong></p>
+  </div>
+</div>
+
 <span class='anchor' id='projects'></span>
 <span class='anchor' id='selected-projects'></span>
 <span class='anchor' id='skills'></span>
@@ -274,37 +322,6 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
     <p>Algorithm: Reinforcement Learning (PPO)</p>
     <p>Simulation: Isaac Gym, Mujoco</p>
     <p>I implemented reinforcement learning (PPO) algorithm using the <code>rsl_rl</code> library and Isaac Gym to train locomotion policy, and use Mujoco Simulation to test the policy.</p>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge">ICRA 2025</div>
-    <img src='images/wbcd.gif' alt="WBCD challenge demo" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3><a href="https://wbcdcompetition.github.io/">ICRA 2025 What Bimanuals Can Do (WBCD) Challenge</a></h3>
-    <p><strong>Hierarchical Bimanual Manipulation Policy for Dining Room Service</strong></p>
-    <div class="authors"><a href="https://ericlee0224.github.io/">Weize Li</a>, Zhengxiao Han, <a href="https://davidlxu.github.io/">Lixin Xu</a>, <a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a>, <a href="https://harrisonbounds.github.io/">Harrison Bounds</a>, Chenrui Zhang, <a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&hl=en">Yifan Xu</a></div>
-    <div class="venue"><em>ICRA 2025</em> 🏆 <span class="accent-text">The First Place</span> <a href="certificate/WBCD_certificate.pdf"><b>(Certificate)</b></a></div>
-    <p><strong>Media: <a href="https://mp.weixin.qq.com/s/SqlE_TpMyzCj3Us1R3L4NA">甲子光年</a> | <a href="https://mp.weixin.qq.com/s/GwJiwAKvZb0K-uHy2_rzBQ">36氪</a> | <a href="https://mp.weixin.qq.com/s/H26K-brCRXqNVZ-BScoC-g">机器之心</a> | <a href="https://mp.weixin.qq.com/s/Y-9wZm2Rwr_gLEelUgV39A">量子位</a> | <a href="https://mp.weixin.qq.com/s/hXL6lI4Mh4bpAi9OrABtEA">ARX方舟无限</a></strong></p>
-  </div>
-</div>
-
-<div class='paper-box floating-card'>
-  <div class='paper-box-image'>
-    <div class="badge">CVPR 2025</div>
-    <img src='images/peg-insertion-sim2real.gif' alt="ManiSkill-ViTac demo" width="100%">
-  </div>
-  <div class='paper-box-text'>
-    <h3><a href="https://ai-workshops.github.io/maniskill-vitac-challenge-2025/">ManiSkill-ViTac 2025: Challenge on Manipulation Skill Learning With Vision and Tactile Sensing</a></h3>
-    <p><span class="accent-text"><strong>Champion</strong></span> 🏆 in Track 2: Tactile-Vision-Fusion Manipulation <a href="certificate/Track2_1_ TARS-STEIIA_certificate.pdf"><b>(Certificate)</b></a></p>
-    <p><span class="accent-text"><strong>The First Place</strong></span> 🏆 in CVPR 2025 Embodied AI Workshop <a href="certificate/2025 Award - ManiSkill-ViTac Track 2 First v1.pdf"><b>(Certificate)</b></a></p>
-    <p><strong>TARS-STEIIA Team</strong></p>
-    <p>Team Leader: <a href="https://warshallrho.github.io/">Ruihai Wu</a></p>
-    <p>Instructor: <a href="https://www.xxlong.site/">Xiaoxiao Long</a></p>
-    <p>Members</p>
-    <p>Xiang Xiao<sup>*</sup>, Yuxing Qin<sup>*</sup>, <a href="https://mrsecant.github.io/">Yuhang Zheng<sup>*</sup></a>, <strong>Xiangyu Chen</strong></p>
   </div>
 </div>
 
