@@ -254,10 +254,11 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
     <img src='images/2026_WBCD_Vienna.gif' alt="WBCD challenge demo" style="width: 50%; max-width: 200px; margin: 0 auto;">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="https://wbcdcompetition.github.io/">ICRA 2025 What Bimanuals Can Do (WBCD) Challenge (Vienna)</a></h3>
+    <h3><a href="https://wbcdcompetition.github.io/">ICRA 2026 What Bimanuals Can Do (WBCD) Challenge (Vienna)</a></h3>
     <p><strong>Track 4 Deformable Manipulation</strong></p>
     <div class="authors"><a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a>, Boyang Cai, Jinru Song, Xuanyu Lai, Xiangzheng Wang, <a href="https://harroldx.github.io/">Jiawei Xia</a>, <a href='https://songwxuan.github.io/'>Wenxuan Song</a></div>
-    <div class="venue"><em>ICRA 2026</em> 🏆 <span class="accent-text">The First Place</span> <a href="certificate/ICRA_2026_WBCD_certificate.pdf"><b>(Certificate)</b></a></div>
+    <div class="venue"><em>ICRA 2026</em> 🏆 <span class="accent-text">The First Place</span> <a href="images/ICRA_2026_WBCD_certificate.jpg"><b>(Certificate)</b></a></div>
+     <p><strong>Media: <a href="https://mp.weixin.qq.com/s/N-dUuNBCAGU_zsGAjGLVxw">AI科技评论</a> | <a href="https://mp.weixin.qq.com/s/jJLwNItTH3EQKAnQdG4jlQ">无限演化</a></strong></p>
   </div>
 </div>
 
