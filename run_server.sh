@@ -2,12 +2,22 @@
 set -euo pipefail
 
 script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+cd "$script_dir"
+
+# Avoid sandbox / leftover Bundler path overrides breaking local gems.
+unset BUNDLE_PATH BUNDLE_USER_HOME GEM_SPEC_CACHE || true
+
+# Prefer the project's conda "homepage" environment so `bash run_server.sh` works
+# without manually activating Ruby first.
+if [[ "${CONDA_DEFAULT_ENV:-}" != "homepage" ]]; then
+  if command -v conda >/dev/null 2>&1; then
+    # shellcheck disable=SC1091
+    source "$(conda info --base)/etc/profile.d/conda.sh"
+    conda activate homepage
+  fi
+fi
+
 ruby_version_file="$script_dir/.ruby-version"
-bundle_user_home="${TMPDIR:-/tmp}/bundler-home"
-
-mkdir -p "$bundle_user_home"
-export BUNDLE_USER_HOME="$bundle_user_home"
-
 if [[ -f "$ruby_version_file" ]]; then
   ruby_version="$(<"$ruby_version_file")"
   ruby_bin_dir="$HOME/.rubies/ruby-$ruby_version/bin"
@@ -15,6 +25,15 @@ if [[ -f "$ruby_version_file" ]]; then
   if [[ -x "$ruby_bin_dir/bundle" ]]; then
     export PATH="$ruby_bin_dir:$PATH"
   fi
+fi
+
+if ! command -v bundle >/dev/null 2>&1 || ! command -v ruby >/dev/null 2>&1; then
+  echo "Ruby/Bundler not found. Create the conda env first:" >&2
+  echo "  conda create -y -n homepage -c conda-forge ruby=3.4" >&2
+  echo "  conda install -y -n homepage -c conda-forge c-compiler cxx-compiler make pkg-config" >&2
+  echo "  conda run -n homepage gem install bundler -v 4.0.9" >&2
+  echo "  conda run -n homepage bundle install" >&2
+  exit 127
 fi
 
 has_reload_port_arg=false
@@ -56,4 +75,4 @@ if [[ "$has_reload_port_arg" == false ]]; then
   extra_args=(--reload-port "$reload_port")
 fi
 
-exec bundle exec jekyll liveserve "${extra_args[@]}" "$@"
+exec bundle exec jekyll liveserve --host 127.0.0.1 --port 4000 "${extra_args[@]}" "$@"

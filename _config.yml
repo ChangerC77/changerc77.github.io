@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xianyu Chen"
+title                    : "Xiangyu Chen"
 title_separator          : "-"
 subtitle                 : 
-name                     : "Xianyu Chen"
+name                     : "Xiangyu Chen"
 description              : ""
 url                     : "https://changerc77.github.io"
 baseurl                 : ""
@@ -27,7 +27,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Xianyu Chen(陈翔宇)"
+  name             : "Xiangyu Chen(陈翔宇)"
   avatar           : "images/avatar.jpg"
   bio              : "Mphil student at HKUST(GZ)"
   location         : "Guangzhou, China"
@@ -40,6 +40,8 @@ author:
   cv               : "CV/Xiangyu_Chen_260621.pdf"
   rednote          : "https://www.xiaohongshu.com/user/profile/612122370000000001003c69"
   rednote_icon     : "images/rednote.png"
+  twitter          : "https://x.com/Changerc77"
+  youtube          : "https://www.youtube.com/@xiangyuchen7602"
   uri              :
   bitbucket        :
   codepen          :
@@ -62,11 +64,9 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
   vine             :
   weibo            :
   xing             :
-  youtube          :
   wikipedia        :
 
 # 添加语言设置

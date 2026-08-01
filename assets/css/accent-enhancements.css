@@ -163,6 +163,42 @@ a.accent-text.accent-text-link:focus {
   text-align: center;
 }
 
+/* Keep sticky sidebar social links visible across zoom / short viewports */
+@media (min-width: 925px) {
+  .sidebar.sticky {
+    max-height: calc(100vh - 6.5em);
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 0.25rem;
+    box-sizing: border-box;
+  }
+
+  .sidebar .author__avatar img {
+    max-width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sidebar .author__urls {
+    width: 100%;
+  }
+
+  .sidebar .author__urls li {
+    white-space: normal;
+    margin-bottom: 0.2em;
+  }
+
+  .sidebar .author__urls a {
+    font-size: 0.82em;
+    line-height: 1.35;
+    margin-bottom: 0.15em;
+    padding-right: 0;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+}
+
 /* 强调色分割线 */
 .divider-accent {
   height: 2px;
@@ -472,6 +508,14 @@ body {
   object-fit: cover;
   object-position: center center;
 }
+
+.paper-box-image .publication-cover-video.publication-cover-video-wide {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center center;
+  background: transparent;
+}
+
 
 .paper-box-image .badge {
   position: absolute;

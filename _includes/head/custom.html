@@ -50,6 +50,39 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('a[href*="pdf"], a[href*="github"], a[href*="arxiv"]').forEach(link => {
     link.classList.add('link-accent');
   });
+
+  // Play cover videos only when visible to reduce buffering / stutter
+  const coverVideos = document.querySelectorAll('.publication-cover-video, .competition-cover-video');
+  const tryPlay = (video) => {
+    const playPromise = video.play();
+    if (playPromise && typeof playPromise.catch === 'function') {
+      playPromise.catch(() => {});
+    }
+  };
+
+  coverVideos.forEach(video => {
+    video.muted = true;
+    video.setAttribute('playsinline', '');
+    video.addEventListener('stalled', () => tryPlay(video));
+    video.addEventListener('ended', () => tryPlay(video));
+  });
+
+  if ('IntersectionObserver' in window) {
+    const videoObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const video = entry.target;
+        if (entry.isIntersecting && entry.intersectionRatio > 0.35) {
+          tryPlay(video);
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: [0, 0.35, 0.7] });
+
+    coverVideos.forEach(video => videoObserver.observe(video));
+  } else {
+    coverVideos.forEach(tryPlay);
+  }
 });
 
 // 动态添加装饰条

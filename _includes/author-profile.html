@@ -59,6 +59,12 @@
           Rednote
         </a>
       </li>
+      {% if author.twitter %}
+        <li><a href="{% if author.twitter contains 'http' %}{{ author.twitter }}{% else %}https://x.com/{{ author.twitter }}{% endif %}"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> X</a></li>
+      {% endif %}
+      {% if author.youtube %}
+        <li><a href="{% if author.youtube contains 'http' %}{{ author.youtube }}{% else %}https://www.youtube.com/@{{ author.youtube }}{% endif %}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
@@ -100,9 +106,6 @@
       {% endif %}
       {% if author.steam %}
         <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
-      {% endif %}
-      {% if author.youtube %}
-        <li><a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> YouTube</a></li>
       {% endif %}
       {% if author.soundcloud %}
         <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i> Soundcloud</a></li>
@@ -151,6 +154,12 @@
         <a href="{{ author.bilibili }}"><i class="fas fa-fw fa-play-circle" aria-hidden="true"></i></a>
       {% endif %}
       <a href="{{ sidebar_rednote }}"><img src="{{ sidebar_rednote_icon | relative_url }}" alt="Rednote" style="width: 1em; height: 1em; display: inline-block;"></a>
+      {% if author.twitter %}
+        <a href="{% if author.twitter contains 'http' %}{{ author.twitter }}{% else %}https://x.com/{{ author.twitter }}{% endif %}"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if author.youtube %}
+        <a href="{% if author.youtube contains 'http' %}{{ author.youtube }}{% else %}https://www.youtube.com/@{{ author.youtube }}{% endif %}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i></a>
+      {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
       {% endif %}
@@ -192,9 +201,6 @@
       {% endif %}
       {% if author.steam %}
         <a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if author.youtube %}
-        <a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.soundcloud %}
         <a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i></a>

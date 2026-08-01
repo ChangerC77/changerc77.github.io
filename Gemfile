@@ -18,6 +18,9 @@ gem "base64"
 gem "bigdecimal"
 gem "kramdown-parser-gfm"
 
+# 3. 修复 Jekyll watch / liveserve 在 Ruby 3+ 下因 pathutil 关键字参数崩溃
+gem "pathutil", github: "sdogruyol/pathutil", ref: "6ab144a7706c2bc5fa0dfdfa498e94ff66e944c6"
+
 # --- 针对 Ruby 3.4.1 的修复部分结束 ---
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
