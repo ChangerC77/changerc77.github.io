@@ -21,12 +21,12 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-robot"></i> Research Interests</h3>
-    <ul>
-      <li><span class="accent-text">Data Collection</span></li>
-        <li><span class="accent-text">Tactile</span></li>
-      <li><span class="accent-text">Dexterous Manipulation</span></li>
-      <li><span class="accent-text">VLA</span></li>
-      <li><span class="accent-text">Mapping and Navigation</span></li>
+    <ul class="interest-tags">
+      <li>UMI/EGO-style Data Collection</li>
+      <li>Tactile</li>
+      <li>Dexterous Manipulation</li>
+      <li>VLA</li>
+      <li>Mapping and Navigation</li>
     </ul>
   </div>
 </div>
@@ -34,7 +34,8 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
 
 # <i class="fas fa-fire"></i> News
 <ul class="about-section-list">
-<li><em>2026.06</em>: My team won the <span class="accent-text">First Place</span> 🏆 in the <a href="https://wbcdcompetition.github.io/" class="accent-text accent-text-link">ICRA 2026 What Bimanuals Can Do (WBCD) Challenge (Vienna)</a>.</li>
+  <li><em>2026.08</em>: I am honored to be invited as a <span class="accent-text">guest</span> to join the <a href="https://mp.weixin.qq.com/s/MNDzyBpnrSn6T2GSoymPPg" class="accent-text accent-text-link">WRC 2026 RoboParty Talk</a>.</li>
+  <li><em>2026.06</em>: My team won the <span class="accent-text">First Place</span> 🏆 in the <a href="https://wbcdcompetition.github.io/" class="accent-text accent-text-link">ICRA 2026 What Bimanuals Can Do (WBCD) Challenge (Vienna)</a>.</li>
   <li><em>2026.04</em>: My team won the <span class="accent-text">Third Place</span> 🥉 & <span class="accent-text">Robot Warrior Speed Award</span>, and the <span class="accent-text">Robot Warrior Intelligent Mobility Award</span> 🏆 in the <a href="https://kw.beijing.gov.cn/xwdt/kcyx/kcyxkchd/202604/t20260421_4598849.html" class="accent-text accent-text-link">Robot Warrior Challenge 2026</a>.</li>
   <li><em>2025.11</em>: I am honored to be a <span class="accent-text">co-organizer</span> for <a href="https://wbcdcompetition.github.io/" class="accent-text accent-text-link">ICRA 2026 What Bimanuals Can Do (WBCD) Challenge</a>.</li>
   <li><em>2025.09</em>: My team won the <span class="accent-text">First Place</span> 🏆 in the <span class="accent-text">CVPR 2025 Embodied AI Workshop</span>.</li>
@@ -119,7 +120,7 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
       <div class="education-content">
         <div class="education-header">
           <span class="education-school primary-gradient-text">Institute for AI Industry Research (AIR), Tsinghua University</span>
-          <span class="education-date education-date-inline"><em>2021.06 - 2023.12, 2024.12 - Present</em></span>
+          <span class="education-date education-date-inline"><em>2021.06 - 2023.12</em></span>
         </div>
         <span class="education-degree">Research Intern, supervised by <a href="https://air.tsinghua.edu.cn/en/info/1046/1621.htm">Prof. Yilun Chen</a> and <a href="https://air.tsinghua.edu.cn/en/info/1046/1196.htm">Prof. Guyue Zhou</a>.</span>
       </div>
@@ -181,9 +182,13 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
   </div>
   <div class='paper-box-text'>
     <h3>DreamTrajectory: Trajectory-Guided Action Generation with World Model Alignment for Mobile Manipulation</h3>
-    <div class="authors"><a href="https://openreview.net/profile?id=~Zheng_Yang8">Zheng Yang</a><sup>*</sup>, <a href="https://victor-roboneo.github.io/">Wenjie Zhang</a><sup>*</sup>, <strong>Xiangyu Chen</strong><sup>*</sup>, <a href="https://songwxuan.github.io/">Wenxuan Song</a>, Xianpeng Wang, Yihang Kang, Wen Chen, Lujia Wang, <a href="https://scholar.google.com/citations?hl=en&user=Mu__bJEAAAAJ&view_op=list_works&sortby=pubdate">Renjing Xu</a>, <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu">Xiaowen Chu</a></div>
+    <div class="authors"><a href="https://openreview.net/profile?id=~Zheng_Yang8">Zheng Yang</a><sup>*</sup>, <a href="https://victor-roboneo.github.io/">Wenjie Zhang</a><sup>*</sup>, <strong>Xiangyu Chen</strong>, <a href="https://songwxuan.github.io/">Wenxuan Song</a>, Xianpeng Wang, Yihang Kang, Wen Chen, Lujia Wang, <a href="https://scholar.google.com/citations?hl=en&user=Mu__bJEAAAAJ&view_op=list_works&sortby=pubdate">Renjing Xu</a>, <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu">Xiaowen Chu</a></div>
     <div class="venue"><span class="accent-text">arXiv preprint</span>, 2026</div>
     <p>We propose DreamTrajectory, a trajectory-guided action generation framework with world model alignment for mobile manipulation.</p>
+    <div class="links">
+      <a href="https://victor-roboneo.github.io/DreamTrajectory/" class="btn-accent"><i class="fas fa-globe"></i> Homepage</a>
+      <a href="https://arxiv.org/abs/2608.01381" class="btn-accent"><i class="fas fa-file-alt"></i> Paper</a>
+    </div>
   </div>
 </div>
 
@@ -262,81 +267,84 @@ I'm <span class="accent-text">Xiangyu CHEN</span>, a first-year MPhil student at
 <span class='anchor' id='competitions'></span>
 
 # <i class="fas fa-trophy"></i> Competitions
-<div class='paper-box floating-card'>
+<div class='paper-box floating-card paper-box--competition'>
   <div class='paper-box-image'>
     <div class="badge">ICRA 2026</div>
-    <img src='images/2026_WBCD_Vienna.gif' alt="WBCD challenge demo" style="width: 50%; max-width: 200px; margin: 0 auto;">
+    <img src='images/2026_WBCD_Vienna.gif' alt="WBCD challenge demo">
   </div>
   <div class='paper-box-text'>
     <h3><a href="https://wbcdcompetition.github.io/">ICRA 2026 What Bimanuals Can Do (WBCD) Challenge (Vienna)</a></h3>
-    <p><strong>Track 4 Deformable Manipulation</strong></p>
-    <p>Team Leader: <a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a></p>
-    <p>Supervisor: <a href="https://scholar.google.com/citations?hl=en&user=Mu__bJEAAAAJ&view_op=list_works&sortby=pubdate"><strong>Prof. Renjing Xu</strong></a></p>
-    <p>Team Members: Boyang Cai, Jinru Song, Xuanyu Lai, Xiangzheng Wang, <a href="https://harroldx.github.io/">Jiawei Xia</a>, <a href="https://songwxuan.github.io/">Wenxuan Song</a></p>
-    <div class="venue"><em>ICRA 2026</em> 🏆 <span class="accent-text">The First Place</span> <a href="images/ICRA_2026_WBCD_certificate.jpg"><b>(Certificate)</b></a></div>
-     <p><strong>Media: <a href="https://mp.weixin.qq.com/s/N-dUuNBCAGU_zsGAjGLVxw">AI科技评论</a> | <a href="https://mp.weixin.qq.com/s/jJLwNItTH3EQKAnQdG4jlQ">无限演化</a></strong></p>
+    <p class="comp-track"><strong>Track 4 Deformable Manipulation</strong></p>
+    <p class="comp-role">Team Leader: <a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a></p>
+    <p class="comp-role">Supervisor: <a href="https://scholar.google.com/citations?hl=en&user=Mu__bJEAAAAJ&view_op=list_works&sortby=pubdate"><strong>Prof. Renjing Xu</strong></a></p>
+    <p class="comp-role">Team Members: Boyang Cai, Jinru Song, Xuanyu Lai, Xiangzheng Wang, <a href="https://harroldx.github.io/">Jiawei Xia</a>, <a href="https://songwxuan.github.io/">Wenxuan Song</a></p>
+    <div class="venue"><em>ICRA 2026</em> 🏆 <span class="accent-text">The First Place</span> <a href="images/ICRA_2026_WBCD_certificate.jpg" class="cert-link"><b>(Certificate)</b></a></div>
+    <p class="comp-media"><strong>Media: <a href="https://mp.weixin.qq.com/s/N-dUuNBCAGU_zsGAjGLVxw">AI科技评论</a> | <a href="https://mp.weixin.qq.com/s/jJLwNItTH3EQKAnQdG4jlQ">无限演化</a></strong></p>
   </div>
 </div>
 
-<div class='paper-box floating-card'>
+<div class='paper-box floating-card paper-box--competition'>
   <div class='paper-box-image'>
     <div class="badge">2026</div>
-    <video class="publication-cover-video publication-cover-video-wide competition-cover-video" autoplay loop muted playsinline preload="auto" aria-label="Robot Warrior Challenge 2026 wheel-legged demo">
+    <video class="competition-cover-video" autoplay loop muted playsinline preload="auto" aria-label="Robot Warrior Challenge 2026 wheel-legged demo">
       <source src='video/wheel-legged-autonomous.mp4?v=7' type='video/mp4'>
     </video>
   </div>
   <div class='paper-box-text'>
     <h3><a href="https://kw.beijing.gov.cn/xwdt/kcyx/kcyxkchd/202604/t20260421_4598849.html">Robot Warrior Challenge 2026</a></h3>
-    <p><strong>Wheel-Legged Robot Track (Autonomous)</strong></p>
+    <p class="comp-track"><strong>Wheel-Legged Robot Track (Autonomous)</strong></p>
     <div class="authors"><a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a>, Yihang Kang, Tao Wang</div>
     <p>We used a wheel-legged robot dog and achieved fully autonomous navigation through SLAM, reinforcement learning, and related methods.</p>
-    <div class="venue">🏆 <span class="accent-text">Robot Warrior Intelligent Mobility Award</span> <a href="certificate/Robot_Warrior_Speed_Award.png"><b>(Certificate)</b></a></div>
+    <div class="venue">🏆 <span class="accent-text">Robot Warrior Intelligent Mobility Award</span> <a href="certificate/Robot_Warrior_Speed_Award.png" class="cert-link"><b>(Certificate)</b></a></div>
   </div>
 </div>
 
-<div class='paper-box floating-card'>
+<div class='paper-box floating-card paper-box--competition'>
   <div class='paper-box-image'>
     <div class="badge">2026</div>
-    <video class="competition-cover-video" autoplay loop muted playsinline preload="auto" aria-label="Robot Warrior Challenge 2026 wheel-legged teleoperation demo" style="width: 50%; max-width: 200px; margin: 0 auto; display: block; border-radius: 8px;">
+    <video class="competition-cover-video" autoplay loop muted playsinline preload="auto" aria-label="Robot Warrior Challenge 2026 wheel-legged teleoperation demo">
       <source src='video/wheel-legged-teleoperation.mp4?v=4' type='video/mp4'>
     </video>
   </div>
   <div class='paper-box-text'>
     <h3><a href="https://kw.beijing.gov.cn/xwdt/kcyx/kcyxkchd/202604/t20260421_4598849.html">Robot Warrior Challenge 2026</a></h3>
-    <p><strong>Wheel-Legged Robot Group (Teleoperation)</strong></p>
+    <p class="comp-track"><strong>Wheel-Legged Robot Group (Teleoperation)</strong></p>
     <div class="authors"><a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a>, Yihang Kang, Tao Wang</div>
-    <div class="venue">🥉 <span class="accent-text">Third Place</span> & <span class="accent-text">Robot Warrior Speed Award</span> <a href="certificate/Teleoperation_Speed.png"><b>(Certificate)</b></a></div>
+    <div class="venue">🥉 <span class="accent-text">Third Place</span> & <span class="accent-text">Robot Warrior Speed Award</span> <a href="certificate/Teleoperation_Speed.png" class="cert-link"><b>(Certificate)</b></a></div>
   </div>
 </div>
 
-<div class='paper-box floating-card'>
+<div class='paper-box floating-card paper-box--competition'>
   <div class='paper-box-image'>
     <div class="badge">ICRA 2025</div>
-    <img src='images/2025_WBCD.gif' alt="WBCD challenge demo" width="100%">
+    <img src='images/2025_WBCD.gif' alt="WBCD challenge demo">
   </div>
   <div class='paper-box-text'>
     <h3><a href="https://wbcdcompetition.github.io/2025/index.html">ICRA 2025 What Bimanuals Can Do (WBCD) Challenge</a></h3>
-    <p><strong>Hierarchical Bimanual Manipulation Policy for Dining Room Service</strong></p>
+    <p class="comp-track"><strong>Hierarchical Bimanual Manipulation Policy for Dining Room Service</strong></p>
     <div class="authors"><a href="https://ericlee0224.github.io/">Weize Li</a>, Zhengxiao Han, <a href="https://davidlxu.github.io/">Lixin Xu</a>, <a href="https://changerc77.github.io/"><strong>Xiangyu Chen</strong></a>, <a href="https://harrisonbounds.github.io/">Harrison Bounds</a>, Chenrui Zhang, <a href="https://scholar.google.com/citations?user=RYKMFp4AAAAJ&hl=en">Yifan Xu</a></div>
-    <div class="venue"><em>ICRA 2025</em> 🏆 <span class="accent-text">The First Place</span> <a href="certificate/ICRA_2025_WBCD_certificate.pdf"><b>(Certificate)</b></a></div>
-    <p><strong>Media: <a href="https://mp.weixin.qq.com/s/SqlE_TpMyzCj3Us1R3L4NA">甲子光年</a> | <a href="https://mp.weixin.qq.com/s/GwJiwAKvZb0K-uHy2_rzBQ">36氪</a> | <a href="https://mp.weixin.qq.com/s/H26K-brCRXqNVZ-BScoC-g">机器之心</a> | <a href="https://mp.weixin.qq.com/s/Y-9wZm2Rwr_gLEelUgV39A">量子位</a> | <a href="https://mp.weixin.qq.com/s/hXL6lI4Mh4bpAi9OrABtEA">ARX方舟无限</a></strong></p>
+    <div class="venue"><em>ICRA 2025</em> 🏆 <span class="accent-text">The First Place</span> <a href="certificate/ICRA_2025_WBCD_certificate.pdf" class="cert-link"><b>(Certificate)</b></a></div>
+    <p class="comp-media"><strong>Media: <a href="https://mp.weixin.qq.com/s/SqlE_TpMyzCj3Us1R3L4NA">甲子光年</a> | <a href="https://mp.weixin.qq.com/s/GwJiwAKvZb0K-uHy2_rzBQ">36氪</a> | <a href="https://mp.weixin.qq.com/s/H26K-brCRXqNVZ-BScoC-g">机器之心</a> | <a href="https://mp.weixin.qq.com/s/Y-9wZm2Rwr_gLEelUgV39A">量子位</a> | <a href="https://mp.weixin.qq.com/s/hXL6lI4Mh4bpAi9OrABtEA">ARX方舟无限</a></strong></p>
   </div>
 </div>
 
-<div class='paper-box floating-card'>
+<div class='paper-box floating-card paper-box--competition paper-box--media-stack'>
   <div class='paper-box-image'>
     <div class="badge">CVPR 2025</div>
-    <img src='images/peg-insertion-sim2real.gif' alt="ManiSkill-ViTac demo" width="100%">
+    <img src='images/maniskill-vitac-setup.png' alt="ManiSkill-ViTac hardware setup">
+    <img src='images/maniskill-vitac-sim.jpg' alt="ManiSkill-ViTac simulation markers and grasp">
+    <img src='images/maniskill-vitac-real.jpg' alt="ManiSkill-ViTac real-world vision-tactile demonstration">
   </div>
   <div class='paper-box-text'>
     <h3><a href="https://ai-workshops.github.io/maniskill-vitac-challenge-2025/">ManiSkill-ViTac 2025: Challenge on Manipulation Skill Learning With Vision and Tactile Sensing</a></h3>
-    <p><span class="accent-text"><strong>Champion</strong></span> 🏆 in Track 2: Tactile-Vision-Fusion Manipulation <a href="certificate/Track2_1_ TARS-STEIIA_certificate.pdf"><b>(Certificate)</b></a></p>
-    <p><span class="accent-text"><strong>The First Place</strong></span> 🏆 in CVPR 2025 Embodied AI Workshop <a href="certificate/2025 Award - ManiSkill-ViTac Track 2 First v1.pdf"><b>(Certificate)</b></a></p>
-    <p><strong>TARS-STEIIA Team</strong></p>
-    <p>Team Leader: <a href="https://warshallrho.github.io/">Ruihai Wu</a></p>
-    <p>Instructor: <a href="https://www.xxlong.site/">Xiaoxiao Long</a></p>
-    <p>Members</p>
-    <p>Xiang Xiao<sup>*</sup>, Yuxing Qin<sup>*</sup>, <a href="https://mrsecant.github.io/">Yuhang Zheng<sup>*</sup></a>, <strong>Xiangyu Chen</strong></p>
+    <div class="venue"><span class="accent-text"><strong>Champion</strong></span> 🏆 in Track 2: Tactile-Vision-Fusion Manipulation <a href="certificate/Track2_1_ TARS-STEIIA_certificate.pdf" class="cert-link"><b>(Certificate)</b></a></div>
+    <div class="venue"><span class="accent-text"><strong>The First Place</strong></span> 🏆 in CVPR 2025 Embodied AI Workshop <a href="certificate/2025 Award - ManiSkill-ViTac Track 2 First v1.pdf" class="cert-link"><b>(Certificate)</b></a></div>
+    <p class="comp-track"><strong>TARS-STEIIA Team</strong></p>
+    <p class="comp-role">Team Leader: <a href="https://warshallrho.github.io/">Ruihai Wu</a></p>
+    <p class="comp-role">Instructor: <a href="https://www.xxlong.site/">Xiaoxiao Long</a></p>
+    <p class="comp-label">Members</p>
+    <p class="comp-role">Xiang Xiao, Yuxing Qin, <a href="https://mrsecant.github.io/">Yuhang Zheng</a>, <strong>Xiangyu Chen</strong></p>
+    <p class="comp-media"><strong>Media: <a href="https://mp.weixin.qq.com/s/Tj4RPRPTz4ojt4wOJAh-qw">新智元</a></strong></p>
   </div>
 </div>
 
